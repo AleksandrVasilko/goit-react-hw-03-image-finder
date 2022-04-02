@@ -1,5 +1,5 @@
 import { Component } from "react/cjs/react.production.min"
-import { FcSearch} from 'react-icon/fc'
+import { FcSearch} from 'react-icons/fc'
 import { toast } from 'react-toastify'
 
 class Searchbar extends Component{
