@@ -6,7 +6,7 @@ const ImageGalleryItem = ({ images, onGetImage }) => (
             <li
                 className="ImageGalleryItem"
                 key={image.id}
-                onClick={() => onGetImage(image.largeImageUrl.image.tags)}
+                onClick={() => onGetImage(image.largeImageURL, image.tags)}
             >
                 <img
                     src={image.webformatURL}

@@ -14,7 +14,7 @@ class Searchbar extends Component{
     handleSubmit = e => {
         const { searchValue } = this.state;
         e.preventDefault();
-        console.log('submit');
+        
         if (!searchValue.trim()) {
             toast.warn('Please enter what are you looking for');
             return;
